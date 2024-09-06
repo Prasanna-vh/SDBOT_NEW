@@ -1,0 +1,36 @@
+Keychain Access in Mac 
+Issues and Solutions with Keychain 
+
+
+What is keychain? 
+
+•	Keychain Access is a macOS app that stores your passwords and account information and reduces the number of passwords you have to remember and manage. 
+•	When you access a website, email  account, network server or other password-protected item, you may be given the option to remember or save the password. If you choose to save the password, it’s saved in your keychain so you don’t have to remember or type your password every time. 
+
+What issues we may expect related to Keychain...? 	User is unable to setup Touch ID to login into the Mac 
+Unable to login into Apple ID 
+While accessing any application(Like Outlook, Safari, Chrome...) getting the prompt to provide the password again and again. 
+
+What is Keychain reset...? 
+
+• Resetting a keychain usually refers to the process of recreating the keychain and its contents, which can help resolve various issues related to passwords and credentials. 
+Backup: Before proceeding with any keychain reset, it's crucial to make sure you have backups of important data. Deleting your keychain will result in losing stored passwords and credentials. Make sure that you will get the confirmation from the user before doing the keychain reset. 
+
+How to perform the Keychain reset...? 
+
+Quit Applications: Close all applications that might be using the keychain services. 
+Navigate to Keychain Folder: Open a Finder window and navigate to the following directory: Finder>> Go to Folder>> ~/library>> Keychain 
+Delete Keychain Files: In this folder, you'll find files with names like "login.keychain" and "system.keychain". Delete these files. Otherwise completely delete the Keychain folder. You may need to enter your macOS user account password to confirm the deletion. 
+Restart: After deleting the keychain files, restart your Mac. 
+
+
+What happens after the Keychain Reset...? 
+• Once your Mac restarts, the system will create new keychain files automatically. You may see a Keychain Assistant dialog asking if you want to create a new login keychain. You can choose to create a new keychain and set a new password or use the same password as your user account. 
+
+
+Be Cautious 
+•	Rememberthatresettingyourkeychain will result in the loss of stored passwords and credentials, so it's important to have backups and be prepared to re-enter passwords for various services. 
+•	Pleasegettheconfirmationfromthe user before performing the Keychain reset. 
+
+
+
